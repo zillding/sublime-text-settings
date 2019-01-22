@@ -1,0 +1,38 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"Alignment",
+		"Babel",
+		"Babel Snippets",
+		"BracketHighlighter",
+		"Case Conversion",
+		"Color Highlighter",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"Emmet",
+		"fish",
+		"Gettext",
+		"GitGutter",
+		"Github Tools",
+		"GitSavvy",
+		"HyperClick",
+		"JsPrettier",
+		"Oceanic Next Italic Color Scheme",
+		"Package Control",
+		"Pretty JSON",
+		"ProjectManager",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-eslint",
+		"Surround",
+		"Terminal",
+		"Vintage Surround"
+	]
+}
