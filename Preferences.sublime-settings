@@ -10,10 +10,11 @@
 		".svn",
 		".git",
 		".hg",
+		".meteor",
+		".vscode",
 		"CVS",
 		"node_modules",
-		"bower_components",
-		".meteor"
+		"bower_components"
 	],
 	"font_face": "Operator Mono",
 	"font_size": 13,
