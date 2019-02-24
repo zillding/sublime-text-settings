@@ -3,6 +3,7 @@
 
 	{ "keys": ["super+\\"], "command": "toggle_side_bar" },
 	{ "keys": ["super+m"], "command": "toggle_minimap" },
+	{ "keys": ["super+."], "command": "gitup_open" },
 	{ "keys": ["super+alt+z"], "command": "js_prettier" },
 
 	{ "keys": ["super+alt+down"], "command": "goto_definition" },
