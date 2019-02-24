@@ -1,4 +1,6 @@
 [
+	{ "keys": ["alt+k"], "command": "clear_console" },
+
 	{ "keys": ["super+\\"], "command": "toggle_side_bar" },
 	{ "keys": ["super+m"], "command": "toggle_minimap" },
 	{ "keys": ["super+alt+z"], "command": "js_prettier" },
