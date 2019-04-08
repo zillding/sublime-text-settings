@@ -12,6 +12,7 @@
 		".meteor",
 		".vscode",
 		".next",
+		".gradle",
 		"node_modules",
 		"bower_components",
 		".svn",
