@@ -37,6 +37,8 @@
 		"SublimeLinter-eslint",
 		"Surround",
 		"Terminal",
-		"Vintage Surround"
+		"Vintage Surround",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets"
 	]
 }
