@@ -26,6 +26,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"JavaScript"
 	],
 	"indent_guide_options":
 	[
