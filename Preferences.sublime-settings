@@ -1,45 +1,12 @@
 {
+	"binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip", "node_modules/"],
 	"bold_folder_labels": true,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Oceanic Next Italic Color Scheme/Oceanic Next Italic.tmTheme",
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": true,
-	"folder_exclude_patterns":
-	[
-		"*.app",
-		"*.cache",
-		".meteor",
-		".vscode",
-		".next",
-		".gradle",
-		"node_modules",
-		"bower_components",
-		".svn",
-		".git",
-		".hg",
-		"CVS"
-	],
-	"font_face": "Operator Mono",
-	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"JavaScript"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"line_padding_bottom": 1,
-	"rulers":
-	[
-		80
-	],
+	"ignored_packages":[],
+	"rulers": [80],
 	"show_line_endings": true,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
 	"word_wrap": true
 }
