@@ -1,12 +1,5 @@
 [
-	{ "keys": ["alt+k"], "command": "clear_console" },
-
-	{ "keys": ["super+m"], "command": "toggle_minimap" },
 	{ "keys": ["super+."], "command": "gitup_open" },
-	{ "keys": ["super+alt+z"], "command": "js_prettier" },
-
-	{ "keys": ["super+alt+down"], "command": "goto_definition" },
-
 	{
 		"keys": ["k", "j"],
 		"command": "exit_insert_mode",
@@ -15,32 +8,5 @@
 			{ "key": "setting.command_mode", "operand": false },
 			{ "key": "setting.is_widget", "operand": false}
 		]
-	},
-
-	{
-		"keys": ["super+alt+left"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 0.33, 1.0],
-			"rows": [0.0, 1.0],
-			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-		}
-	},
-
-	{
-		"keys": ["super+alt+right"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 0.66, 1.0],
-			"rows": [0.0, 1.0],
-			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-		}
-	},
-
-	{ "keys": ["alt+1"], "command": "move_to_group", "args": { "group": 0 } },
-	{ "keys": ["alt+2"], "command": "move_to_group", "args": { "group": 1 } },
-	{ "keys": ["alt+3"], "command": "move_to_group", "args": { "group": 2 } },
-	{ "keys": ["alt+4"], "command": "move_to_group", "args": { "group": 3 } }
+	}
 ]
