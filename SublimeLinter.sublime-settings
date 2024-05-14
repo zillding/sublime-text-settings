@@ -3,5 +3,9 @@
 
 	"statusbar.messages_template": "",
 	
-	"linters": {}
+	"linters": {
+		"eslint": {
+			"selector": "source.js, source.jsx, source.ts, source.tsx - meta.attribute-with-value"
+		}
+	}
 }
