@@ -1,0 +1,40 @@
+{
+	"scope": "source.jsx, source.tsx",
+	"completions": [
+		{
+			"trigger": "ush",
+			"annotation": "useState",
+			"contents": "const [$1, set${1/(\\b\\w)/\\u$1/}] = useState($2);",
+			"kind": "snippet",
+			"details": "React useState() hook"
+		},
+		{
+			"trigger": "ueh",
+			"annotation": "useEffect",
+			"contents": "useEffect(() => {\n\t${1:// TODO:}\n\treturn () => {$2};\n}, [$3]);",
+			"kind": "snippet",
+			"details": "React useEffect() hook"
+		},
+		{
+			"trigger": "urh",
+			"annotation": "useRef",
+			"contents": "const ${1:ref} = useRef($2);",
+			"kind": "snippet",
+			"details": "React useRef() hook"
+		},
+		{
+			"trigger": "uss",
+			"annotation": "useSelector",
+			"contents": "const $1 = useSelector(state => state.$1);",
+			"kind": "snippet",
+			"details": "React redux useSelector() hook"
+		},
+		{
+			"trigger": "usd",
+			"annotation": "useDispatch",
+			"contents": "const dispatch = useDispatch();",
+			"kind": "snippet",
+			"details": "React redux useDispatch() hook"
+		}
+	]
+}

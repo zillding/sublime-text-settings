@@ -1,0 +1,47 @@
+{
+	"scope": "source.js, source.jsx, source.ts, source.tsx",
+	"completions": [
+		{
+			"trigger": "clo",
+			"annotation": "console.log",
+			"contents": "console.log('@@@@ ${1:obj}:', ${1:obj});",
+			"kind": "snippet",
+			"details": "console.log('@@@@ ${1}:', ${1});"
+		},
+		{
+			"trigger": "anfn",
+			"annotation": "arrow function",
+			"contents": "(${1:param}) => {$2}",
+			"kind": "snippet",
+			"details": "(${1:param}) => {$2}"
+		},
+		{
+			"trigger": "imp",
+			"annotation": "import default",
+			"contents": "import ${2:React} from '${1:react}';",
+			"kind": "snippet",
+			"details": "import ${2} from '${1}';",
+		},
+		{
+			"trigger": "imd",
+			"annotation": "import named",
+			"contents": "import { $2 } from '${1:react}';",
+			"kind": "snippet",
+			"details": "import { $2 } from '$1';",
+		},
+		{
+			"trigger": "fof",
+			"annotation": "for of loop",
+			"contents": "for (const ${1:item} of ${2:list}) {\n\t${3:// TODO:}\n}",
+			"kind": "snippet",
+			"details": "for of loop"
+		},
+		{
+			"trigger": "for",
+			"annotation": "for loop",
+			"contents": "for (let ${1:i} = 0; ${1:i} < ${2:list.length}; ${1:i}++) {\n\t${3:// TODO:}\n}",
+			"kind": "snippet",
+			"details": "for loop with index"
+		}
+	]
+}
