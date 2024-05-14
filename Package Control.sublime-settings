@@ -13,12 +13,14 @@
 		"HyperClick",
 		"JsPrettier",
 		"LSP",
+		"LSP-tailwindcss",
 		"LSP-typescript",
 		"Package Control",
 		"ProjectManager",
 		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
-		"SublimeLinter-eslint"
+		"SublimeLinter-eslint",
+		"Tailwind CSS",
 	]
 }
