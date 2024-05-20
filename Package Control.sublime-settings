@@ -15,6 +15,7 @@
 		"LSP",
 		"LSP-tailwindcss",
 		"LSP-typescript",
+		"MDX",
 		"Package Control",
 		"ProjectManager",
 		"Sass",
@@ -22,5 +23,5 @@
 		"SublimeLinter-annotations",
 		"SublimeLinter-eslint",
 		"Tailwind CSS",
-	]
+	],
 }
