@@ -6,6 +6,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":[
 	],
+	"indent_guide_options": ["draw_normal", "draw_active_single"],
 	"rulers": [80],
 	"vintage_start_in_command_mode": true,
 	"word_wrap": true
